@@ -1,0 +1,48 @@
+:root{
+    --font-family-base: 'Helvetica', sans-serif;
+    --font-family-title: 'Raleway', 'Arial', sans-serif;
+    --font-weight-regular :400;
+    --font-weight-bold: 700;
+    --line-height-small: 1.2;
+    --line-height-base: 1.2;
+    --line-height-medium: 1.2;
+    --section-header-align: "center";
+    --section-tagline-transform: "uppercase";
+    --section-title-margin: 0;
+    --color-black: #090909;
+    --section-title-color: var(var(--color-black));
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-size-small: 1.2rem;
+}
+
+body{
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: var(--font-weight-bold);
+}
+a{
+    text-decoration: none;
+}
+
+.section-header{
+    text-align: var(--section-header-align);
+
+}
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
+.section-tagline{
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+}
